@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario de Contacto</title>
+</head>
+<body>
+
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: linear-gradient(to right, #fbc2eb, #fcd1d1); 
+      color: #333;
+      
+    }
+    h1, h2, h3, h4, h5 {
+      color: #6a0572;
+      border-bottom: 2px solid #fbc2eb;
+      padding-bottom: 5px;
+    }
+    </style>
+ <center> 
+<h2> <b> Formulario de Contacto </b> </h2>
+</center>
+Bienvenido a Sabor Express
+
+En Sabor Express sabemos que la buena comida es la clave de cualquier momento especial.
+Ofrecemos desayunos, comidas y cenas todos los días, preparados con ingredientes frescos y el mejor sazón.
+
+Además, contamos con servicio para eventos privados, adaptándonos a tu presupuesto y localidad. 
+Desde banquetes completos, hasta mesas de dulces o renta de carritos de snacks, tenemos la opción ideal para tu fiesta,
+
+reunión o evento corporativo.
+
+<h2> <b> Menú Diario </b> </h2>
+<table align= "center" border="1">
+	<tr>
+		<td>Desayunos desde </td>
+		<td>  $70 MXN </td>
+	</tr>
+	
+	<tr>
+		<td> Comidas completas desde </td>
+		<td>$120 MXN</td>
+	</tr>
+	
+	<tr>
+		<td> Cenas ligeras desde </td>
+		<td> $85 MXN</td>
+	</tr>
+
+</table>
+<h2> <b>  Servicio para Eventos </b> </h2>
+<table align= "center" border="3">
+	<tr>
+		<td> Servicio </t>
+		<td> Descripcion</td>
+		<td> Precio Aproximado </td>
+
+	</tr>
+	
+	<tr>
+		<td> Banquete completo </t>
+		<td> Menú de 3 tiempos (entrada, plato fuerte, postre) </td>
+		<td> Desde $250 p/p </td>
+	</tr>
+	
+	<tr>
+		<td> Mesa de dulces </t>
+		<td> Decoración temática + variedad de 10 tipos de dulces </td>
+		<td> Desde $2,500 MXN</td>
+	</tr>
+	
+	<tr>
+		<td> Carrito de snacks </t>
+		<td> Hot dogs, palomitas, nachos y papas fritas </td>
+		<td> Desde $3,200 MXN </td>
+	</tr>
+	
+	<tr>
+		<td> Carrito de postres </t>
+		<td> Cupcakes, mini pays, brownies y gelatinas </td>
+		<td> Desde $3,500 MXN </td>
+	</tr>
+	
+	<tr>
+		<td> Paquete personalizado </t>
+		<td> Se adapta al número de personas y presupuesto del cliente </td>
+		<td> A cotizar </td>
+	</tr>
+
+</table>
+<hr>
+
+<h3> <b>Contacto  </b> </h3>
+	<li> Dirección ficticia: Av. Sabores #123, Col. Centro, CDMX </li>
+	<li> Tel: 55-1234-5678 </li>
+	<li> Email: contacto@saborexpress.com </li>
+<hr> 
+<h3><b> Reservación </b></h3>
+<h4>Datos de Contacto</h4>
+
+<table>
+<tr>
+	<td> Nombre Completo: </td>
+	<td> <input type="text" name="nombre_completo" size="35"> </td>
+</tr>
+<tr>
+	<td> Direccion: </td>
+	<td> <input type="text" name="direccion" size="35"> </td>
+</tr>
+
+<tr>
+    <td> Fecha de la Reservación: </td>
+    <td> <input type="date" name="fecha" size="35"> </td>
+</tr>
+
+<tr>
+	<td> Correo Electronico: </td>
+	<td> <input type="text" name="correo" size="35"> </td>
+</tr>
+<tr>
+	<td> Telefono: </td>
+	<td> <input type="text" name="telef" size="35"> </td>
+</tr>
+
+	<tr>
+	
+		<td> <b> Servicio:</b> </td> 
+	</tr>
+	<tr>
+	
+	<td> <input type="radio" id="BC" name="Cot" value="BC"> 
+		<label for="BC">Banquete Completo </label></td>
+	
+	
+	<td> <input type="radio" id="MD" name="Cot" value="MDD">
+	<label for="MD">Mesa de Dulces </label></td>
+	
+	
+	<td> <input type="radio" id="CS" name="Cot" value="CSS">
+	<label for="CS">Carrito de Snack </label></td>
+	
+	
+	<td> <input type="radio" id="CP" name="Cot" value="CPP">
+	<label for="MD">Carrito de Postres </label></td>
+	
+	
+	<td> <input type="radio" id="PP" name="Cot" value="PPP">
+	<label for="MD">Paquete Personalizado </label></td>
+	</tr>
+	
+	<tr> 
+		<td> <b> Productos: </b> </td>
+	</tr>
+	
+	<td> <input type="checkbox" id= "RF" name="RF" value="RF">
+	<label for="RFS"> Refrescos </label> </td>
+	<td> <input type="checkbox" id= "D" name="D" value="D">
+	<label for="DS"> Dulce </label> </td>
+	<td> <input type="checkbox" id= "S" name="S" value="S">
+	<label for="SO"> Salado </label> </td>
+	<td> <input type="checkbox" id= "AL" name="AL" value="AL">
+	<label for="ALC"> Alcohol </label> </td>
+	
+</table>
+<hr> 
+<h3> <b> Cotización </b></h3>
+	<tr> 
+		<td> Describa la información de su evento, cuantas personas acudiran, que servicio requiere,
+		 el presupuesto con el que cuenta, la fecha del evento, etc: </td>
+		 <td> <textarea name="desc_eve" id="desc_eve" cols="50" rows="15"></textarea> </td>
+	</tr>
+	<button type="submit" style="padding:10px 20px; background-color:#4CAF50; 
+	color:white; border:none; border-radius:8px; font-size:16px; cursor:pointer;">
+  Enviar
+</button>
+
+	
+
+	<hr> 
+<a href="../curriculum.html" class="boton">Inicio</a>
+
+<style>
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* verde */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  .boton:hover {
+    background-color: #45a049; /* un verde más oscuro */
+  }
+</style>
+
+
+ 
+
+</body>
+</html>
